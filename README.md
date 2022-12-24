@@ -41,7 +41,7 @@ Basic Usage
 ```yaml
 steps:
   - name: Wait for Netlify Deploy
-    uses: probablyup/wait-for-netlify-action@3.2.0
+    uses: progging/wait-for-netlify-deploy@3.2.0
     id: waitForDeployment
     with:
       site_id: 'YOUR_SITE_ID' # See Settings > Site Details > General in the Netlify UI
